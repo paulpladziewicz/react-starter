@@ -1,5 +1,4 @@
 const path = require('path')
-const webpack = require("webpack")
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 const isProduction = process.env.NODE_ENV === 'production'
@@ -20,7 +19,7 @@ const config = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: 'index.html',
+            template: 'src/public/index.html'
         })
     ],
     module: {
@@ -38,6 +37,12 @@ const config = {
     },
     resolve: {
         extensions: ['.tsx', '.ts', '.js'],
+        alias: {
+            components: path.resolve(__dirname, './src/components'),
+            utils: path.resolve(__dirname, './src/utils'),
+            constants: path.resolve(__dirname, './src/constants'),
+            styles: path.resolve(__dirname, './src/styles'),
+        }
     },
 }
 

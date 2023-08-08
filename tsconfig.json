@@ -2,12 +2,17 @@
   "compilerOptions": {
     "target": "es2016",
     "jsx": "react-jsx",
-    "module": "commonjs",
+    "moduleResolution": "node",
     "baseUrl": "./src",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "skipLibCheck": true,
-    "emitDeclarationOnly": true
+    "emitDeclarationOnly": true,
+    "paths": {
+      "components/*": ["./src/components/*"],
+      "utils/*": ["./src/utils/*"],
+      "constants/*": ["./src/constants/*"],
+    }
   }
 }

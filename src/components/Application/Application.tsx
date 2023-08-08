@@ -1,7 +1,9 @@
 import React from 'react'
 
-const Application = () => {
-  return <>TypeScript React Starter</>
+export const Application = () => {
+  return (
+    <>
+      <h1>TS React Starter</h1>
+    </>
+  )
 }
-
-export default Application
