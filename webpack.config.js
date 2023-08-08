@@ -21,16 +21,13 @@ const config = {
     plugins: [
         new HtmlWebpackPlugin({
             template: 'index.html',
-        }),
-        new webpack.ProvidePlugin({
-            'React': 'react'
         })
     ],
     module: {
         rules: [
             {
                 test: /\.(ts|tsx)$/i,
-                loader: 'ts-loader',
+                loader: 'babel-loader',
                 exclude: ['/node_modules/'],
             },
             {
@@ -40,7 +37,7 @@ const config = {
         ],
     },
     resolve: {
-        extensions: ['.tsx', '.ts'],
+        extensions: ['.tsx', '.ts', '.js'],
     },
 }
 
