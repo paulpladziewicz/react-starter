@@ -15,7 +15,8 @@
   ],
   "plugins": ["@typescript-eslint/eslint-plugin"],
   "rules": {
-    "strict": ["error", "never"]
+    "strict": ["error", "never"],
+    "object-curly-spacing": ["error", "always"]
   },
   "env": {
     "browser": true

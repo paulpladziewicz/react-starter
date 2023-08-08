@@ -8,7 +8,7 @@
     "start": "rimraf dist && npx webpack serve --mode=development",
     "lint": "eslint --ignore-path .gitignore --ext .ts,.tsx .",
     "prettier": "prettier --ignore-path .gitignore \"**/*.+(ts|tsx|json)\"",
-    "format": "npm run prettier -- --write ",
+    "format": "npm run prettier -- --write && npm run lint -- --fix",
     "check-format": "npm run prettier -- --list-different",
     "check-types": "tsc --project tsconfig.json",
     "validate": "npm-run-all --parallel test check-format lint check-types husky",
