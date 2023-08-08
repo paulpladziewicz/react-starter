@@ -1,0 +1,7 @@
+.dist/
+.husky/
+node_modules/
+
+#Editors / IDEs
+.vscode/
+.idea/
