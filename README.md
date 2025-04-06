@@ -1,6 +1,6 @@
-# React TypeScript Starter
+# React Starter
 
-Welcome to **React TypeScript Starter**! This is a boilerplate project designed to kickstart your React projects with TypeScript. It is equipped with all the necessary tools and configurations to simplify development while maintaining a clean and efficient workflow.
+Welcome to **React Starter**! This is a boilerplate project designed to kickstart your React projects with TypeScript. It is equipped with all the necessary tools and configurations to simplify development while maintaining a clean and efficient workflow.
 
 ---
 
