@@ -4,8 +4,10 @@ module.exports = function (api) {
   api.cache(true);
 
   const presets = [
-    ['@babel/preset-env', {modules: isTest ? 'commonjs' : false}],
-    ['@babel/preset-react'],
+    ['@babel/preset-env', { modules: isTest ? 'commonjs' : false }],
+    ['@babel/preset-react', {
+      "runtime": "automatic"
+    }],
     '@babel/preset-typescript',
   ];
   const plugins = [

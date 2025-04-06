@@ -1,7 +1,10 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import { createRoot } from 'react-dom/client';
 import Application from 'components/Application'
 
 const container = document.getElementById('application')
 
-ReactDOM.render(<Application />, container)
+if (container) {
+    const root = createRoot(container)
+    root.render(<Application />)
+}

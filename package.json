@@ -1,5 +1,5 @@
 {
-  "name": "ts-react-starter",
+  "name": "react-typescript-starter",
   "version": "1.0.0",
   "description": "A starting point for React projects using TypeScript.",
   "main": "index.tsx",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/paulpladziewicz/ts-react-starter.git"
+    "url": "git+https://github.com/paulpladziewicz/react-typescript-starter.git"
   },
   "keywords": [
     "typescript",
@@ -27,39 +27,40 @@
   "author": "Paul Pladziewicz",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/paulpladziewicz/ts-react-starter/issues"
+    "url": "https://github.com/paulpladziewicz/react-typescript-starter/issues"
   },
-  "homepage": "https://github.com/paulpladziewicz/ts-react-starter#readme",
+  "homepage": "https://github.com/paulpladziewicz/react-typescript-starter#readme",
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.22.10",
+    "@babel/core": "^7.26.10",
     "@babel/plugin-proposal-class-properties": "^7.18.6",
     "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
-    "@babel/preset-env": "^7.22.10",
-    "@babel/preset-react": "^7.22.5",
-    "@babel/preset-typescript": "^7.22.5",
-    "@testing-library/react": "^14.0.0",
-    "@types/jest": "^29.5.3",
-    "@types/react": "^18.2.19",
-    "@types/react-dom": "^18.2.7",
-    "@typescript-eslint/eslint-plugin": "^6.3.0",
-    "@typescript-eslint/parser": "^6.3.0",
-    "babel-loader": "^9.1.3",
-    "eslint": "^8.46.0",
-    "eslint-config-prettier": "^9.0.0",
-    "html-webpack-plugin": "^5.5.3",
-    "husky": "^8.0.3",
-    "jest": "^29.6.2",
-    "jest-environment-jsdom": "^29.6.2",
-    "lint-staged": "^13.2.3",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/preset-react": "^7.26.3",
+    "@babel/preset-typescript": "^7.27.0",
+    "@testing-library/react": "^16.3.0",
+    "@types/jest": "^29.5.14",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.1",
+    "@typescript-eslint/eslint-plugin": "^8.29.0",
+    "@typescript-eslint/parser": "^8.29.0",
+    "babel-loader": "^10.0.0",
+    "eslint": "^9.24.0",
+    "eslint-config-prettier": "^10.1.1",
+    "html-webpack-plugin": "^5.6.3",
+    "husky": "^9.1.7",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "lint-staged": "^15.5.0",
     "npm-run-all": "^4.1.5",
-    "prettier": "^3.0.1",
-    "typescript": "^5.1.6",
-    "webpack": "^5.88.2",
-    "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^4.15.1"
+    "prettier": "^3.5.3",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.8.3",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.1"
   }
 }
