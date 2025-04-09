@@ -1,7 +1,7 @@
 {
   "name": "react-starter",
   "version": "1.0.0",
-  "description": "A starting point for React projects using TypeScript.",
+  "description": "Reusable React dev setup with TypeScript, Webpack, ESLint, Prettier, and CLI support.",
   "main": "index.tsx",
   "scripts": {
     "build": "rimraf dist && npx webpack build --mode=production",
